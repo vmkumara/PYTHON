@@ -1,0 +1,95 @@
+i = 1
+while i <= 10 :
+    print(2,"*",i,"=",2*i)
+    i = i + 1
+
+
+i = 1
+while i <= 10 :
+    j = 1
+    while j <= 10:
+        print(i, "*", j, "=", i*j)
+        j = j + 1
+    i = i + 1
+
+
+a = [10,30,40,50]
+for i in a:
+    print(i)
+
+
+tools = ["docker","ansible","jenkins","k8s"]
+for i in tools:
+    print(i)
+
+
+a = [10,30,50,70,90]
+sum = 0
+for i in a:
+    sum = sum + i
+print("sum of the numbers in the list is",sum)
+
+
+a = [20,50,40,30,70,90]
+max = 0
+for i in a:
+    if max < i:
+        max = i
+print("biggest number is",max)
+
+
+a = [20,50,40,30,70,90]
+max = 90
+for i in a:
+    if max > i:
+        max = i
+print("smallest number is ",max)
+
+
+numbers = [1,2,3,4,5,6,7,8,9,10,11]
+even = 0
+odd = 0
+for i in numbers:
+    if i % 2 == 0:
+        even = even + 1
+    else:
+        odd = odd + 1
+print("Count of even numbers is ",even)
+print("Count of odd numbers is ",odd)
+
+
+
+file1 = open("C:\\Users\\manikanta\\Desktop\\Ansiblee1.txt", "w")
+file1.write("hellow devops")
+
+file1 = open("C:\\Users\\manikanta\\Desktop\\Ansiblee1.txt", "a")
+file1.write("hellow hellow hellow")
+
+file1 = open("C:\\Users\\manikanta\\Desktop\\Ansiblee1.txt", "a")
+file1.write("\nhellow hellow hellow")
+
+file1 = open("C:\\Users\\manikanta\\Desktop\\Ansible1.txt", "r")
+data = file1.read()
+print(data)
+
+
+file1 = open("C:\\Users\\manikanta\\Desktop\\Ansible1.txt", "r")
+data = file1.readlines()
+for x in data:
+    print(x)
+
+
+file1 = open("C:\\Users\\manikanta\\Desktop\\Ansible1.txt", "r")
+file2 = open("C:\\Users\\manikanta\\Desktop\\newfile.txt", "w")
+data = file1.read()
+file2.write(data)
+
+
+file1 = open("C:\\Users\\manikanta\\Desktop\\Ansible1.txt", "r")
+file2 = open("C:\\Users\\manikanta\\Desktop\\newfile2.txt", "a")
+data = file1.readlines()
+i = 0
+while i < len(data):
+    text = data[i]
+    file2.write(text)
+    i = i + 2

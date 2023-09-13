@@ -1,0 +1,70 @@
+a = 10
+b = 20
+
+if a < b :
+    print("a is smallest")
+else:
+    print("b is smallest")
+
+----------------------------------------------------------
+
+a = 10
+b = 20
+c = 5
+
+if a < b and a < c :
+    print("a is the smallest")
+elif b < c:
+    print("b is the smallest")
+else:
+    print("c is the smallest")
+
+-----------------------------------------------------------
+
+a = 10
+b = 20
+c = 5
+
+if a < b and a < c :
+    print("a is the smallest")
+elif b < c:
+    print("b is the smallest")
+else:
+    print("c is the smallest")
+
+-----------------------------------------------------------
+
+a = 10
+b = 20
+c = 5
+
+if a < b or a < c :
+    print("a is the smallest")
+elif b < c:
+    print("b is the smallest")
+else:
+    print("c is the smallest")
+
+----------------------------------------------------------
+
+i = 1
+while i <= 10 :
+    print("python")
+    i = i + 1
+
+i = 1
+while i <= 10 :
+    print(i)
+    i = i + 1
+
+i = 2
+while i <= 10 :
+    print(i)
+    i = i + 2
+
+i = 1
+while i <= 10 :
+    print(i)
+    i = i + 2
+
+
